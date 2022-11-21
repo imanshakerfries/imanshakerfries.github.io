@@ -1,0 +1,17 @@
+
+.up-arrow {
+    width: 0; 
+    height: 200; 
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+      
+    border-bottom: 300px solid green;
+
+    margin: 8rem;
+    transition-duration: .5s;
+    }
+
+.up-arrow:hover {
+    transform: rotate(180deg);
+    border-radius: 70%;
+}

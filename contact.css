@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+body {
+    padding: 1%;
+    font-family: 'Oswald', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+li {
+    display: inline;
+    float: right;
+}
+
+li a:hover{
+    color: lightyellow;
+}
+
+nav,
+h2,
+.banner span,
+section h1 {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: 18px;
+}
+
+.dropdowncontent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdowncontent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdowncontent a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .Dropdown:hover .dropdowncontent {
+    display: block;
+  }
+
+#contact {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 80px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    transition-duration: .3s;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+button {
+    border: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: darkseagreen;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    background-color: darkseagreen;
+    color: white;
+}
+
+.bgvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    background-color: rgba(255, 255, 224, 0.5);
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: auto;
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+
+  input[type=submit] {
+    background-color: rgba(255, 255, 224, 0.5);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition-delay: .2s;
+    transition-duration: .2s;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 224, 0.5   );
+    padding: 20px;
+  }
+
+  .container:after {
+    clear: both;
+}

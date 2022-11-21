@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+body {
+    padding: 1%;
+    font-family: 'Oswald', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.left,
+.right,
+.center {
+    padding: 1%;
+    float: left;
+    width: 33%;
+    color: black;
+    height: 550px;
+    text-align: center;
+}
+
+.left {
+    background-color: lightyellow;
+}
+
+.right {
+    background-color: lightgoldenrodyellow;
+}
+
+.center {
+    background-color: cornsilk;
+}
+
+.container:after {
+    clear: both;
+}
+
+nav,
+h2,
+.banner span,
+section h1 {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+li {
+    display: inline;
+    float: right;
+}
+
+li a:hover{
+    color: lightyellow;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.dropdowncontent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdowncontent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdowncontent a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .Dropdown:hover .dropdowncontent {
+    display: block;
+  }
+
+#index {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 90px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    transition-duration: .3s;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.africa {
+    width: 250px;
+    height: 250px;
+    transition: transform .2s;
+}
+
+.africa:hover {
+    transform: scale(1.1);
+}
+
+.asia {
+    width: 250px;
+    height: 250px;
+    transition: transform .2s;
+}
+
+.asia:hover {
+    transform: scale(1.1);
+}
+
+.europe {
+    width: 250px;
+    height: 250px;
+    transition: transform .2s;
+}
+
+.europe:hover {
+    transform: scale(1.1);
+}
+
+button {
+    border: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: darkseagreen;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    background-color: darkseagreen;
+    color: white;
+}
+
+.bgvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
