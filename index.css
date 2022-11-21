@@ -155,15 +155,18 @@ footer {
     }
 
     nav {
+        background: black;
         margin-right: 9vw;
         margin-top: 20vw;
+        text-align: center;
     }
 
-    nav a{
+    nav a {
+        color: white;
         padding: 0.9vw;
         text-align: center;
     }
-    
+
     .hotair {
         display: block;
         position: fixed;
@@ -174,7 +177,10 @@ footer {
         z-index: -1;
     }
 
-    .left, .center, .right, .footer {
+    .left,
+    .center,
+    .right,
+    .footer {
         margin-left: 10vw;
         margin-right: 10vw;
     }

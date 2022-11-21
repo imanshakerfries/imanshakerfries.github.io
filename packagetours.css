@@ -78,7 +78,7 @@ nav a {
 }
 
 .dropdowncontent a:hover {
-    background-color: #f1f1f1;
+    background-color: black;
 }
 
 .Dropdown:hover .dropdowncontent {
@@ -175,11 +175,12 @@ footer {
         margin-top: 20vw;
     }
 
-    nav a{
+    nav a {
+        color: white;
         padding: 0.9vw;
         text-align: center;
     }
-    
+
     .hotair {
         display: block;
         position: fixed;
@@ -190,7 +191,10 @@ footer {
         z-index: -1;
     }
 
-    .left, .center, .right, .footer {
+    .left,
+    .center,
+    .right,
+    .footer {
         margin-left: 10vw;
         margin-right: 10vw;
     }
